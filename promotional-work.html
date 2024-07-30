@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promotional Work</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/font/font.css">
+</head>
+
+<header class="header" data-header>
+    <div class="container">
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <img src="./assets/images/menu.svg" width="17" height="17" alt="menu icon">
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <span class="span one"></span>
+            <span class="span two"></span>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#gallery" class="navbar-link" data-nav-link>Gallery</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#contact" class="navbar-link" data-nav-link>Contact us</a>
+          </li>
+
+        </ul>
+
+
+         <!-- Bottom Navigation -->
+  <div class="bottom-nav">
+    <ul class="bottom-nav-list">
+      <li class="bottom-nav-item">
+        <a href="irish-landscapes.html" class="bottom-nav-link" data-page="irish-landscapes">Irish Landscapes</a>
+      </li>
+      <li class="bottom-nav-item">
+        <a href="portraits.html" class="bottom-nav-link" data-page="portraits">Portraits</a>
+      </li>
+      <li class="bottom-nav-item">
+        <a href="american-landscapes.html" class="bottom-nav-link" data-page="american-landscapes">American Landscapes</a>
+      </li>
+      <li class="bottom-nav-item">
+        <a href="promotional-work.html" class="bottom-nav-link" data-page="promotional-work">Promotional Work</a>
+      </li>
+    </ul>
+  </div>
+
+  
+  <p class="navbar-title">Gerry Carry Artwork</p>
+
+  <p class="navbar-text">
+    All images on this site © copyright 2010
+  </p>
+
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+<body>
+
+  <main>
+    <section class="section irish-gallery" id="irish-gallery">
+      <div class="container">
+        <h2 class="h2 section-title">Promotional Work</h2>
+        <ul class="irish-gallery-list">
+            <li class="irish-gallery-item">
+                <div class="irish-gallery-card">
+                  <figure class="irish-card-banner">
+                    <img src="./assets/paintings/promotional-work/Georgia-Military-Institute.jpg" alt="Georgia Military Institute Circa 1850 - framed oil on canva 8ft x 4ft Collection of the Hilton Hotel, Marietta Georgia" class="irish-img-cover" data-full="./assets/paintings/promotional-work/Georgia-Military-Institute.jpg">
+                  </figure>
+                  <div class="irish-card-content">
+                    <h3 class="h6">
+                      <a class="irish-card-title">Georgia Military Institute Circa 1850</a>
+                    </h3>
+                    <span class="irish-card-tag">Promotional Work</span>
+                  </div>
+                </div>
+              </li>
+          <li class="irish-gallery-item">
+            <div class="irish-gallery-card">
+              <figure class="irish-card-banner">
+                <img src="./assets/paintings/promotional-work/Playbill.jpg" alt="Playbill for the New York City Premier of Conal Creedon's one act plays 'After luke' and 'When I was God'" class="irish-img-cover" data-full="./assets/paintings/promotional-work/Playbill.jpg">
+              </figure>
+              <div class="irish-card-content">
+                <h3 class="h6">
+                  <a href="#" class="irish-card-title">Playbill</a>
+                </h3>
+                <span class="irish-card-tag">Promotional Work</span>
+              </div>
+            </div>
+          </li>
+          <li class="irish-gallery-item">
+            <div class="irish-gallery-card">
+              <figure class="irish-card-banner">
+                <img src="./assets/paintings/promotional-work/Georgia-Military-2.jpg" alt="Marietta Town Square Circa 1850 - framed oil on canva 8ft x 4ft Collection of the Hilton Hotel, Marietta Georgia" class="irish-img-cover" data-full="./assets/paintings/promotional-work/Georgia-Military-2.jpg">
+              </figure>
+              <div class="irish-card-content">
+                <h3 class="h6">
+                  <a href="#" class="irish-card-title">Marietta Town Square Circa 1850</a>
+                </h3>
+                <span class="irish-card-tag">Promotional Work</span>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal Structure -->
+  <div class="modal" id="modal">
+    <span class="close" id="close">&times;</span>
+    <img class="modal-content" id="modal-img">
+    <div id="caption"></div>
+    <a class="prev" id="prev">&#10094;</a>
+    <a class="next" id="next">&#10095;</a>
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
